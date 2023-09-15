@@ -1,0 +1,31 @@
+body{
+    background: url("../images/background2.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    /*display: flex;*/
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-wrap: break-word;
+    padding: 7rem ;
+}
+
+p{
+    max-width: 100%;
+    color: #e8ad2a;
+    font-size: 30pt;
+}
+
+h2{
+    padding: 0 8rem;
+    color: #e8ad2a;
+}
+
+img{
+    height: 550px;
+    width: 80%;
+}

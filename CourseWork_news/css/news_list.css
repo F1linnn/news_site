@@ -1,0 +1,56 @@
+body{
+    background: url("../images/background2.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    padding: 100px;
+    /*display: flex;*/
+}
+
+h2{
+    color: #e8ad2a;
+    font-size: 30pt;
+}
+
+h3{
+    margin-top: 0;
+    color: #e8ad2a;
+    margin-bottom: 1rem;
+}
+
+p{
+    margin: 0;
+    color: #f6bc3a;
+}
+
+
+
+img{
+    margin-left: 4rem;
+    height: 150px;
+    width: 250px;
+}
+
+.header{
+    padding-left: 250px;
+    margin-bottom: 30px ;
+}
+
+.list_news{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 73%;
+}
